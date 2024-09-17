@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<title>Staybun</title>
+<link rel="icon" href="images/fevi2.jpeg">
+<html>
+
+<style>
+.he01{
+
+    background-color: yellow;
+    color: red;
+    text-align: center;
+}
+
+
+
+
+
+</style>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+
+    <h2>Hotel Register Form</h2>
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <img src="images/profile icon.png" alt="Avatar" class="avatar" height="200px" width="30px">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+    <script>
+
+        var modal = document.getElementById('id01');
+
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+<center>
+    <marquee behavior="alt" direction="right" style="background-color: rgb(124, 120, 120);" width="50%">
+        <ul class="nav-links">
+            <li><a href="#" class="active">Popular Places</a></li>
+            <li><a href="#">Travel outside</a></li>
+            <li><a href="#"><a href="listing.html">Online Packages</a></a></li>
+        </ul>
+    </marquee>
+</center>
+
+    <marquee behavior="" direction=" left">
+        <div class="he01">
+            <p >Stay once, carry memories forever , The perfect place for getaways Because comfort is more important.</p>
+        </div>
+        
+       
+        <span>Popular Places</span>
+
+     <span>Travel outside</span>
+     <span>Online Packages</span>
+    </marquee>
+
+
+
+
+    <nav id="navBar">
+        <img src="images/logo.png" class="logo">
+        <ul class="nav-links">
+            <li><a href="#" class="active">Popular Places</a></li>
+            <li><a href="#">Travel outside</a></li>
+            <li><a href="#"><a href="listing.html">Online Packages</a></a></li>
+        </ul>
+
+
+
+</body>
+
+</html>

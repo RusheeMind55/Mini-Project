@@ -10,6 +10,9 @@ E-Commerce Application
 
 ![image alt](https://github.com/RusheeMind55/Mini-Project/blob/0e34576fb9f91c082695eb3a6a92e3588fa5d376/SS/Screenshot%202024-09-17%20090140.png)
 
+![image alt](https://github.com/RusheeMind55/Mini-Project/blob/b1471c5dbe4eaed1226e9cc43c1ac33ae8dfef8d/SS/Screenshot%202024-09-17%20090210.png)
+
+
 ![image alt](https://github.com/RusheeMind55/Mini-Project/blob/0e34576fb9f91c082695eb3a6a92e3588fa5d376/SS/Screenshot%202024-09-17%20090159.png)
 
 
